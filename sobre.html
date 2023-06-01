@@ -36,33 +36,44 @@
 
     <!-- Conteúdo, parte principal da página, será dividido em 3 seções -->
     <main>
-        <!-- Seção 1: contém imagem e texto -->
-        <section class="curso-info">
-            <h2 class="titulo-section">Técnico em Informática</h2>
-            <img class="curso-img" src="imagens/progweb.jpg" alt="Imagem ilustrativa representando a programação.">
-            <p class="curso-paragrafo">O curso técnico subsequente é voltado para pessoas que já concluíram o ensino
-                médio (recente ou não). Visa preparar o aluno para o mercado de trabalho.</p>
-            <p>Especificamente o curso técnico em Informática, fornece a formação para tanto o trabalho com assistência
-                técnica / suporte técnico, quando desenvolvimento de softwares.</p>
-        </section>
-
-        <!-- Seção 2: contém um vídeo -->
+        <!-- Seção 1: contém itens com imagens e texto -->
         <section>
-            <h2 class="titulo-section">Vídeo</h2>
-            <iframe class="video" src="https://www.youtube.com/embed/_sWdo0BZ7DM" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+            <!-- Título da Seção e texto descritivo -->
+            <h2 class="titulo-section">Programação Web</h2>
+            <p>A programação web, em um primeiro momento focará no desenvolvimento Front-End, ou seja, nas linguagens
+                que tratam de construções de páginas web focadas no lado do cliente, dentro da arquitetura
+                Cliente-Servidor.</p>
+
+            <!-- Lista com itens -->
+            <!-- Para cada item, tem um nome/título, imagem e texto descritivo -->
+            <ul class="conteúdos">
+                <li class="item-conteudo">
+                    <h3 class="titulo-conteudo">HTML</h3>
+                    <img class="imagem-conteudo"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg">
+                    <p class="desc-conteudo">HyperText Markup Language</p>
+                    <p class="desc-conteudo">Linguagem para estruturação de páginas web.</p>
+                </li>
+                <li class="item-conteudo">
+                    <h3 class="titulo-conteudo">CSS</h3>
+                    <img class="imagem-conteudo"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg">
+                    <p class="desc-conteudo">Cascading StyleSheet</p>
+                    <p class="desc-conteudo">Linguagem para estilização de páginas web.</p>
+                </li>
+                <li class="item-conteudo">
+                    <h3 class="titulo-conteudo">JS</h3>
+                    <img class="imagem-conteudo"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+                    <p class="desc-conteudo">JavaScript</p>
+                    <p class="desc-conteudo">Linguagem para criação de scripts.</p>
+                </li>
+            </ul>
         </section>
 
-        <!-- Seção 3: contém uma mapa -->
-        <section id="section-maps">
-            <h2 class="titulo-section">CEEP PG</h2>
-            <p>O Centro Estadual de Educação Profissional de Ponta Grossa fica no bairro Colônia Dona Luiza.</p>
-            <iframe class="mapa"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.066149569323!2d-50.164826421702756!3d-25.133454360728635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e81b654b1039bb%3A0x4b526f88fdf826a8!2sCentro%20Estadual%20de%20Educa%C3%A7%C3%A3o%20Profissional%20de%20Ponta%20Grossa!5e0!3m2!1spt-BR!2sbr!4v1685052153620!5m2!1spt-BR!2sbr"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Seção 2: contém uma tabela -->
+        <section>
+            <h2 class="titulo-section">Tabela</h2>
 
         </section>
 
@@ -96,6 +107,7 @@
         <p class="texto-rodape">Nenhum direito reservado. Uncreative Commons.</p>
         <p class="texto-rodape" style="font-size: 80px;">&#9982;</p>
     </footer>
+
 </body>
 
 </html>
