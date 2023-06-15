@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     background-image: url(../imagens/bg\ pattern.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: whitesmoke;
+    font-family: 'Jost', sans-serif;
 }
 
 header {
@@ -213,10 +216,45 @@ section p {
     line-height: 1.5;
 }
 
+/* Tabela */
 td {
-    border: solid 1px white;
-    color: black;
-    background-color: red;
+    border: solid 2px #F3D8F6;
+    color: #9593fa;
+    padding: 5px;
+    line-height: 1.5;
+}
+
+table {
+    border-width: 5px;
+    margin: 15px 4%;
+}
+
+thead, tfoot {
+    text-align: center;
+    font-weight: bold;
+}
+
+td:first-child{
+    font-weight: bold;
+}
+
+.btn_topo {
+    background-color: #F3D8F650;
+    border-radius: 50px;
+    padding: 5px 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 8%;
+    font-size: 50px;
+    color: #4f5bb0a0;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.btn_topo:hover {
+    transition: 1s;
+    background-color: #F3D8F6;
+    color: #4f5bb0;
 }
 
 footer {
